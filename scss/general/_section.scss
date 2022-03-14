@@ -1,0 +1,102 @@
+.section{
+    width: 350px;
+    height: 100%;
+    background-color: darkslategray;
+    &__navbar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        padding: 10px 20px;
+ box-sizing: border-box;
+    }
+    &__img{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    &__input{
+        background-color: rgba(16, 32, 32, 0.4);
+        color: white;
+        padding: 5px 7px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        width: 230px;
+        height: 30px;
+    }
+    &__info{
+        width: 100%;
+        height: 37px;
+        display: flex;
+        box-sizing:border-box;
+        justify-content: space-evenly;
+        border-bottom: 1px solid rgba(16, 32, 32, 0.4);
+    }
+    &__info p{
+        font-family: serif;
+        cursor: pointer;
+        height: 20px;
+    }
+    &__info  p:hover, p:active{
+        border-bottom: 1px solid rgb(150, 144, 144);
+    }
+  &__title{
+      padding: 15px 10px;
+      box-sizing:border-box;
+      width: 100%;
+  }
+  &__frend{
+    box-sizing:border-box;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius:20px;
+    transition: 0.4s ease-in;
+  }
+  &__frend:hover{
+      background-color:rgba(149, 207, 188,0.5);   
+  }
+  &__frend h2{
+      margin-top: 3px;
+      margin-left: 10px;
+      font-size: 20px;
+  }
+  &__logo-frend{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+  }
+  &__pencil{
+      width: 50px;
+      height: 50px;
+      padding: 10px 10px;
+      background-color:darkcyan;
+      border-radius:50%;
+      cursor: pointer;
+      position: absolute;
+      top: 540px;
+      left: 270px;
+      position: fixed;
+z-index: 3;
+  }
+  &__pencil-channel{
+      border-radius:20px;
+      position: fixed;
+      z-index: 3;
+    position: absolute;
+    visibility: hidden;
+    top: 390px;
+    left: 140px;
+      width: 180px;
+      height: 140px;
+      background-color:wheat;
+  }
+}
+
+.pancil-group{
+    visibility: visible;
+}

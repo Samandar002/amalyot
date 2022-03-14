@@ -1,0 +1,165 @@
+.article{
+    background-color: darkmagenta;
+    &__frend{
+        visibility: visible;
+        opacity: 0;
+        width: 1020px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        // visibility: hidden;
+        position: fixed;
+        top: 0;
+    }
+    &__navbar{
+        width: 100%;
+        height: 60px;
+        background-color:darkgray;
+        margin: 0;
+        padding: 0;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+    }
+    &__label{
+        border:1px solid rgba(202, 194, 194,0.5);
+        position: absolute;
+        top: 590px;
+        border-radius:10px 10px 10px;
+        margin-left: 250px;
+        padding: 10px 10px;
+        display: flex;
+        // margin-top: 100%;
+    }
+    &__textarea{
+        border-radius:10px 10px 10px ;
+        padding: 4px 5px;
+        border: none;
+        outline: none;
+        margin-left: 6px;
+    }
+    &__logo-frends{
+        width: 50px;
+        height: 50px;
+        border-radius:50%;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    &__item{
+        margin-left: 15px;
+    }
+    &__item h2{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    &__item p{
+        opacity: 0.8;
+    }
+    &__emoji{
+        cursor: pointer;
+        margin-top: 7px;
+    }
+    &__emojis{
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        top: 480px;
+        left: 440px;
+        // overflow: scroll;
+        width: 180px;
+        border:2px solid red;
+        height: 100px;
+        visibility:hidden;
+        opacity: 0;
+    }
+    &__add{
+        width: 300px;
+        height: 100%;
+        // background-color:red;
+        border:2px solid red;
+        position: absolute;
+        right: 0;
+        background-color:darkcyan;
+        visibility: hidden;
+    }
+    &__add-navbar{
+        height: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    &__add-pencil{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    &__add-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    &__x-logo{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    &__add-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // width: 100px;
+    }
+    &__add-item h2{
+        margin-left: 20px;
+    }
+}
+
+.emojis{
+    visibility: visible;
+    opacity: 1 !important;
+}
+
+.emijies{
+    cursor: pointer;
+}
+.salom{
+    margin-left: 130px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#article__btn{
+    width: 70px;
+}
+
+#content ul{
+    width: 500px;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 800px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#content li{
+    border: 10px 10px 10px solid red;
+}
+#date{
+    margin-top: 29px;
+    font-size: 18px;
+    margin-left: -50px;
+}
+
+.frendTuit{
+    visibility: visible;
+    opacity: 1 !important;
+}
+
+
+
+.addd{
+    visibility: visible;
+}
